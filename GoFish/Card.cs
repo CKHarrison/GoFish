@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GoFish
 {
-    class Card : IComparable<Card>
+    public class Card : IComparable<Card>
     {
         public Suits Suit { get; private set; }
         public Values Value { get; private set; }

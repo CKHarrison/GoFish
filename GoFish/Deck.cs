@@ -7,9 +7,9 @@ using System.Collections.ObjectModel;
 
 namespace GoFish
 {
-    class Deck : ObservableCollection<Card>
+    public class Deck : ObservableCollection<Card>
     {
-        private static Random random = new Random();
+        private static Random random =  Player.Random;
         
         public Deck()
         {

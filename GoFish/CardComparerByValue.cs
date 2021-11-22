@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GoFish
 {
-    class CardComparerByValue : IComparer<Card>
+    public class CardComparerByValue : IComparer<Card>
     {
         public int Compare(Card x, Card y)
         {

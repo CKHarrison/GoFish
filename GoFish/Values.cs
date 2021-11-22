@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GoFish
 {
-    enum Values
+    public enum Values
     {
         Ace = 1,
         Two = 2,
